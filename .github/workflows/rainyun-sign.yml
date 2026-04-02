@@ -128,7 +128,7 @@ jobs:
           # 确保使用系统路径中的ChromeDriver
           CHROMEDRIVER_PATH: "chromedriver"
           # 最大并发线程数（默认2）
-          MAX_WORKERS: "3"
+          MAX_WORKERS: "2"
           # 最大重试次数（默认1）
           MAX_RETRIES: "1"
       
