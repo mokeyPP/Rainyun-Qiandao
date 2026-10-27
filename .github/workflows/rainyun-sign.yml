@@ -7,7 +7,7 @@ on:
 
 jobs:
   sign-in:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 #ubuntu-latest最新版不适用了 2026-10-23
     permissions:
       actions: write  # 允许删除缓存
     steps:
